@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		AF8FD40621ECD5BA00DB7E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD40521ECD5BA00DB7E43 /* AppDelegate.swift */; };
-		AF8FD40821ECD5BA00DB7E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD40721ECD5BA00DB7E43 /* ViewController.swift */; };
+		AF8FD40821ECD5BA00DB7E43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD40721ECD5BA00DB7E43 /* HomeViewController.swift */; };
 		AF8FD40B21ECD5BA00DB7E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8FD40921ECD5BA00DB7E43 /* Main.storyboard */; };
 		AF8FD40D21ECD5BC00DB7E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FD40C21ECD5BC00DB7E43 /* Assets.xcassets */; };
 		AF8FD41021ECD5BC00DB7E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8FD40E21ECD5BC00DB7E43 /* LaunchScreen.storyboard */; };
+		AF8FD41921ECD6E500DB7E43 /* VideosPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD41821ECD6E500DB7E43 /* VideosPageViewController.swift */; };
+		AF8FD41C21ECD71800DB7E43 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD41B21ECD71800DB7E43 /* Video.swift */; };
+		AF8FD41E21ECD85200DB7E43 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD41D21ECD85200DB7E43 /* VideoPlayerViewController.swift */; };
+		AF8FD42221ECD96F00DB7E43 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD41F21ECD96E00DB7E43 /* UIImageView+Download.swift */; };
+		AF8FD42321ECD96F00DB7E43 /* Collection+BeforeAfterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD42021ECD96F00DB7E43 /* Collection+BeforeAfterItem.swift */; };
+		AF8FD42421ECD96F00DB7E43 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD42121ECD96F00DB7E43 /* UIViewController+Storyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF8FD40221ECD5BA00DB7E43 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8FD40521ECD5BA00DB7E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF8FD40721ECD5BA00DB7E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8FD40721ECD5BA00DB7E43 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF8FD40A21ECD5BA00DB7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF8FD40C21ECD5BC00DB7E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8FD40F21ECD5BC00DB7E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF8FD41121ECD5BC00DB7E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8FD41821ECD6E500DB7E43 /* VideosPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosPageViewController.swift; sourceTree = "<group>"; };
+		AF8FD41B21ECD71800DB7E43 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AF8FD41D21ECD85200DB7E43 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		AF8FD41F21ECD96E00DB7E43 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		AF8FD42021ECD96F00DB7E43 /* Collection+BeforeAfterItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+BeforeAfterItem.swift"; sourceTree = "<group>"; };
+		AF8FD42121ECD96F00DB7E43 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,43 @@
 			isa = PBXGroup;
 			children = (
 				AF8FD40521ECD5BA00DB7E43 /* AppDelegate.swift */,
-				AF8FD40721ECD5BA00DB7E43 /* ViewController.swift */,
+				AF8FD41A21ECD70200DB7E43 /* Model */,
+				AF8FD41721ECD61E00DB7E43 /* Controllers */,
+				AF8FD42521ECD97500DB7E43 /* Protocols + Extensions */,
 				AF8FD40921ECD5BA00DB7E43 /* Main.storyboard */,
 				AF8FD40C21ECD5BC00DB7E43 /* Assets.xcassets */,
 				AF8FD40E21ECD5BC00DB7E43 /* LaunchScreen.storyboard */,
 				AF8FD41121ECD5BC00DB7E43 /* Info.plist */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AF8FD41721ECD61E00DB7E43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FD40721ECD5BA00DB7E43 /* HomeViewController.swift */,
+				AF8FD41821ECD6E500DB7E43 /* VideosPageViewController.swift */,
+				AF8FD41D21ECD85200DB7E43 /* VideoPlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF8FD41A21ECD70200DB7E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FD41B21ECD71800DB7E43 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF8FD42521ECD97500DB7E43 /* Protocols + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FD42021ECD96F00DB7E43 /* Collection+BeforeAfterItem.swift */,
+				AF8FD41F21ECD96E00DB7E43 /* UIImageView+Download.swift */,
+				AF8FD42121ECD96F00DB7E43 /* UIViewController+Storyboard.swift */,
+			);
+			path = "Protocols + Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +138,11 @@
 				TargetAttributes = {
 					AF8FD40121ECD5BA00DB7E43 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,8 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FD40821ECD5BA00DB7E43 /* ViewController.swift in Sources */,
+				AF8FD42221ECD96F00DB7E43 /* UIImageView+Download.swift in Sources */,
+				AF8FD41921ECD6E500DB7E43 /* VideosPageViewController.swift in Sources */,
+				AF8FD42321ECD96F00DB7E43 /* Collection+BeforeAfterItem.swift in Sources */,
+				AF8FD41C21ECD71800DB7E43 /* Video.swift in Sources */,
+				AF8FD41E21ECD85200DB7E43 /* VideoPlayerViewController.swift in Sources */,
+				AF8FD40821ECD5BA00DB7E43 /* HomeViewController.swift in Sources */,
 				AF8FD40621ECD5BA00DB7E43 /* AppDelegate.swift in Sources */,
+				AF8FD42421ECD96F00DB7E43 /* UIViewController+Storyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
