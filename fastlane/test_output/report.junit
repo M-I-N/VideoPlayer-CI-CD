@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='VideoPlayerTests.xctest' tests='3' failures='0'>
+  <testsuite name='VideoPlayerUITests.VideoPlayerUITests' tests='1' failures='0'>
+    <testcase classname='VideoPlayerUITests.VideoPlayerUITests' name='testExample' time='19.725'/>
+  </testsuite>
+  <testsuite name='VideoPlayerTests.VideoPlayerTests' tests='2' failures='0'>
+    <testcase classname='VideoPlayerTests.VideoPlayerTests' name='testExample' time='0.001'/>
+    <testcase classname='VideoPlayerTests.VideoPlayerTests' name='testPerformanceExample' time='3.143'/>
+  </testsuite>
+</testsuites>
